@@ -6,3 +6,6 @@ body {
         max-width: 1200px;
 }
 
+.h1 {
+        background: var(--NAVY-BLUE, #2E2F42);
+}
