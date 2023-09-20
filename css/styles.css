@@ -11,10 +11,6 @@ a {
 /* Remove the bullet for <ul> and <li> */
 ul,
 li {
-        color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
         list-style: none;
         padding: 0;
         margin: 0;
@@ -50,6 +46,15 @@ h4 {
         margin: 0;
 }
 
+.portfolio {
+        color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        padding-left: 0;
+}
+
+
 .contacts-info {
         color: var(--NAVY-BLUE, #2E2F42);
         font-family: Roboto;
@@ -57,4 +62,9 @@ h4 {
         font-weight: 400;
         padding-left: 0;
         margin: 0;
+}
+
+.main-secion {
+        background-color: var(--NAVY-BLUE, #2E2F42);
+
 }
