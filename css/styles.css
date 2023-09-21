@@ -48,19 +48,6 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 /* Style the .studio li */
 .studio {
-        color: var(--OCEAN, #404BBF);
-        /* Body Medium */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
-}
-
-/* Style the .portfolio */
-.portfolio {
         color: var(--NAVY-BLUE, #2E2F42);
         /* Body Medium */
         font-family: Roboto;
@@ -70,19 +57,9 @@ color: var(--NAVY-BLUE, #2E2F42);
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
-}
-
-/* Style the .contacts */
-.contacts {
-        color: var(--NAVY-BLUE, #2E2F42);
-        /* Body Medium */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;             
+        list-style: none;
+        padding: 0;
+        margin: 0;
 }
 
 /* Style the email */
