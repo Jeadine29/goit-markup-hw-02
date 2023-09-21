@@ -146,7 +146,7 @@ button {
 .btn {
         cursor: pointer;
         border-radius: 4px;
-        margin-bottom: 2px;
+        margin-bottom: 2 px;
 }
 
 .btn:hover{
