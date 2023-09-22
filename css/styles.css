@@ -46,7 +46,7 @@ li {
         margin: 0;
 }
 
-.studio {
+.studio-link {
         color: var(--OCEAN, #404BBF);
         font-family: Roboto;
         font-size: 16px;
@@ -57,7 +57,7 @@ li {
         letter-spacing: 0.32px;
 }
 
-.portfolio a {
+.portfolio-link{
         color: var(--NAVY-BLUE, #2E2F42);
         font-family: Roboto;
         font-size: 16px;
@@ -68,7 +68,7 @@ li {
         letter-spacing: 0.32px;
 }
 
-.contacts a {
+.contacts-link {
         color: var(--NAVY-BLUE, #2E2F42);
         font-family: Roboto;
         font-size: 16px;
@@ -90,7 +90,7 @@ li {
         letter-spacing: 0.32px;
 }
 
-.email a {
+.contact-info-link {
        color: var(--SLATE, #434455);
        /* Body */
         font-family: Roboto;
@@ -102,17 +102,6 @@ li {
         letter-spacing: 0.32px;
 }
 
-.number a{
-       color: var(--SLATE, #434455);
-/* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
-}
 .service {
         background: var(--NAVY-BLUE, #2E2F42);
 }
