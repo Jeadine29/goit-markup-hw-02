@@ -5,7 +5,6 @@ body {
 
 button {
         color: var(--IRIS, #4D5AE5);
-        text-align: center;
          /* Button Text */
         font-family: Roboto;
         font-size: 16px;
@@ -15,13 +14,19 @@ button {
          /* 150% */
         letter-spacing: 0.64px;
         border-radius: 4px;
-         
+        border: 0px;      
 }
 
+.buttons { 
+        text-align: center;
+        align-items: center;
+        padding: 12px 24px;
+        gap: 24px;
+}
 .btn {
         cursor: pointer;
         border-radius: 4px;
-        margin-bottom: 2px;
+        margin-bottom: 2px       
 }
 
 .btn:hover{
@@ -29,8 +34,8 @@ button {
         color: var(--IRIS, #4D5AE5);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: var(--WHITE, #FFF);
+        background: var(--OCEAN, #404BBF);
 }
-
 
 
 /* Header section */
@@ -139,10 +144,7 @@ h1 {
         letter-spacing: 1.12px;
 }
 
-
-
-
-.main-content {
+h3 {
         color: var(--NAVY-BLUE, #2E2F42);
         /* Header 3 */
         font-family: Roboto;
@@ -208,4 +210,3 @@ footer {
 }
 /* End of Footer */
 
-/* Start of Portfolio */
