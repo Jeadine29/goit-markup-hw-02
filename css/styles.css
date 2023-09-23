@@ -3,6 +3,36 @@ body {
         background-color: rgba(255, 255, 255, 1);        
 }
 
+button {
+        color: var(--IRIS, #4D5AE5);
+        text-align: center;
+         /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+         /* 150% */
+        letter-spacing: 0.64px;
+        border-radius: 4px;
+         
+}
+
+.btn {
+        cursor: pointer;
+        border-radius: 4px;
+        margin-bottom: 2px;
+}
+
+.btn:hover{
+        border-radius: 4px;
+        color: var(--IRIS, #4D5AE5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        color: var(--WHITE, #FFF);
+}
+
+
+
 /* Header section */
 h4{
         margin: 0;
@@ -47,8 +77,7 @@ li {
         text-transform: uppercase;
 }
 
-.studio-link {
-        color: var(--OCEAN, #404BBF);
+.link {
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -56,31 +85,20 @@ li {
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
+        color: var(--NAVY-BLUE, #2E2F42)
 }
 
-.portfolio-link{
-        color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
+.link:hover {
+        color: var(--IRIS, #4D5AE5);
+        background-color: transparent;
 }
 
-.contacts-link {
-        color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
+.link:active {
+        color: var(--IRIS, #4D5AE5);
+        background-color: transparent;
 }
 
-.contact-info {
+.contacts {
         /* Body */
         font-family: Roboto;
         font-size: 16px;
@@ -89,18 +107,17 @@ li {
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
+        color: var(--SLATE, #434455);
 }
 
-.contact-info-link {
-       color: var(--SLATE, #434455);
-       /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
+.contacts:hover {
+        color: var(--IRIS, #4D5AE5);
+        background-color: transparent;
+}
+
+.contacts:active{
+        color: var(--IRIS, #4D5AE5);
+        background-color: transparent;
 }
 /* End of Header section */
 
@@ -122,32 +139,7 @@ h1 {
         letter-spacing: 1.12px;
 }
 
-button {
-        border: 0px;
-        border-radius: 4px;
-        background: var(--IRIS, #4D5AE5);;
-        color: var(--WHITE, #FFF);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.64px   
-}
 
-.btn {
-        cursor: pointer;
-        border-radius: 4px;
-        margin-bottom: 2px;
-}
-
-.btn:hover{
-        border-radius: 4px;
-        background: var(--OCEAN, #404BBF);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
 
 
 .main-content {
@@ -162,7 +154,7 @@ button {
         letter-spacing: 0.4px;
 }
 
-p{
+p {
         color: var(--SLATE, #434455);
         /* Body */
         font-family: Roboto;
@@ -215,3 +207,5 @@ footer {
         text-transform: uppercase;
 }
 /* End of Footer */
+
+/* Start of Portfolio */
